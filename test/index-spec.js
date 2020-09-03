@@ -1,7 +1,7 @@
 var assert = require('assert')
   , sinon = require('sinon')
-  , prerender = require('../index')
-  , util = require('../lib/util')
+  , prerender = require('../app')
+  , util = require('../app/lib/util')
 
 describe ('Prerender', function(){
 
